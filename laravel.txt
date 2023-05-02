@@ -7,3 +7,6 @@ if ($request->hasFile('image')) {
     $file->move('backend/uploads/brochur/', $filename);
     $brochur->image = $filename;
 }
+
+# insert
+Model::create($array)
